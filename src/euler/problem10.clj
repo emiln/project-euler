@@ -3,5 +3,5 @@
 
 (->> 2E6
      primes-sieve
-     (reduce +')
+     (reduce +)
      println)
