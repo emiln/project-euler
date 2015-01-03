@@ -1,7 +1,13 @@
 (ns euler.problem10
+  "Problem 10:
+
+  The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+
+  Find the sum of all the primes below two million."
+  {:run problem10}
   (:require [euler.algebra :refer [primes-sieve]]))
 
-(->> 2E6
-     primes-sieve
-     (reduce +)
-     println)
+(defn problem10 []
+  (->> 2E6
+       primes-sieve
+       (reduce +)))
