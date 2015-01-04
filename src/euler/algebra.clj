@@ -36,3 +36,15 @@
         (doseq [j (range (* i i) limit i)]
           (.clear primes j))))
     (bitset-seq primes)))
+
+(defn reduce-proper-divisors
+  "Reduces all proper diviors of n."
+  [reducing-fn val n]
+  (let [candidates (range 2 (inc (Math/sqrt n)))
+        reducer (fn [reduced-divs div]
+                  (if (zero? (mod n div))
+                    (if (= div (/ n div))
+                      (reducing-fn reduced-divs div)
+                      (reducing-fn (reducing-fn reduced-divs div) (/ n div)))
+                    reduced-divs))]
+    (reduce reducer (reducing-fn val 1) candidates)))
