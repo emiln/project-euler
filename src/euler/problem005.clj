@@ -1,4 +1,4 @@
-(ns euler.problem5
+(ns euler.problem005
   "Problem 5:
 
   2520 is the smallest number that can be divided by each of the numbers from 1

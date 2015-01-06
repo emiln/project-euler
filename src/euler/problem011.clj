@@ -1,4 +1,4 @@
-(ns euler.problem11
+(ns euler.problem011
   "In the 20x20 grid below, four numbers along a diagonal line have been marked
   in red.
 

@@ -1,4 +1,4 @@
-(ns euler.problem8
+(ns euler.problem008
   "Problem 8:
 
   The four adjacent digits in the 1000-digit number that have the greatest

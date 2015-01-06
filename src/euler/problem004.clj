@@ -1,4 +1,4 @@
-(ns euler.problem4
+(ns euler.problem004
   "Problem 4:
 
   A palindromic number reads the same both ways. The largest palindrome made

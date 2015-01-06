@@ -1,4 +1,4 @@
-(ns euler.problem15
+(ns euler.problem015
   "Problem 15:
 
   Starting in the top left corner of a 2x2 grid, and only being able to move to
