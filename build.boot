@@ -6,7 +6,7 @@
   [n]
   (try
     (let [ns (-> "euler.problem"
-                 (str n)
+                 (str (format "%03d" n))
                  symbol)]
       (require ns)
       (let [m (-> ns the-ns meta)

@@ -1,4 +1,4 @@
-(ns euler.problem1
+(ns euler.problem001
   "Problem 1:
 
   If we list all the natural numbers below 10 that are multiples of 3 or 5, we
