@@ -48,3 +48,9 @@
                       (reducing-fn (reducing-fn reduced-divs div) (/ n div)))
                     reduced-divs))]
     (reduce reducer (reducing-fn val 1) candidates)))
+
+(defn factorial
+  "Computes the factorial of n."
+  [n]
+  (let [reducer (if (< n 21) * *')]
+    (reduce reducer (range 1 (inc n)))))
