@@ -1,5 +1,5 @@
 (set-env!
-  :source-paths #{"src"})
+  :source-paths #{"src" "resources"})
 
 (defn run-problem
   "Runs Project Euler problem number n."
